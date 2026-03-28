@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <main>
-      <h1>frontend do crud</h1>
-    </main>
-  )
-}
+import { GlobalStyle } from './styles/globalStyles.ts';
 
-export default App
+const App = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <h1>frontend do crud</h1>
+    </>
+  )
+};
+
+export default App;
